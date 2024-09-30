@@ -83,7 +83,7 @@ Fluent:Notify({
 
 Tabs.Main:AddButton({
     Title = "Телепортация в конец обби",
-    Description = "Телепортирует в конец обби, благодаря чему вы получите [x2 LUCK + 25 SPINS]",
+    Description = "Телепортирует в конец обби, благодаря чему вы получите награды",
     Callback = teleportToPosition,
     Icon = "map-pin"
 })
