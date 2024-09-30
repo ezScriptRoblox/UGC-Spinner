@@ -59,8 +59,8 @@ local function RedeemCodes()
 end
 
 local Window = Fluent:CreateWindow({
-    Title = "CryShy v0.1 | t.me/RBScripts0",
-    SubTitle = " Beta",
+    Title = "CryScript | t.me/RBScripts0",
+    SubTitle = "v0.1",
     TabWidth = 100,
     Size = UDim2.fromOffset(900, 500),
     Acrylic = false,
