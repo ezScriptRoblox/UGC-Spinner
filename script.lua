@@ -61,7 +61,7 @@ end
 local Window = Fluent:CreateWindow({
     Title = "CryShy v0.1 | t.me/RBScripts0",
     SubTitle = " Beta",
-    TabWidth = 150,
+    TabWidth = 100,
     Size = UDim2.fromOffset(750, 400),
     Acrylic = false,
     Theme = "Light",
