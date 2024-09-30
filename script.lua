@@ -59,10 +59,10 @@ local function RedeemCodes()
 end
 
 local Window = Fluent:CreateWindow({
-    Title = "Testing Files",
-    SubTitle = " 📂 Test files",
+    Title = "CryShy v0.1 | t.me/RBScripts0",
+    SubTitle = " Beta",
     TabWidth = 150,
-    Size = UDim2.fromOffset(420, 420),
+    Size = UDim2.fromOffset(400, 600),
     Acrylic = false,
     Theme = "Light",
     MinimizeKey = Enum.KeyCode.LeftControl
@@ -82,15 +82,15 @@ Fluent:Notify({
 })
 
 Tabs.Main:AddButton({
-    Title = "Teleport to End of Obby",
-    Description = "Teleport to the end of the obby",
+    Title = "Телепортация в конец обби",
+    Description = "Телепортирует в конец обби, благодаря чему вы получите [x2 LUCK + 25 SPINS]",
     Callback = teleportToPosition,
     Icon = "map-pin"
 })
 
 Tabs.Main:AddButton({
-    Title = "Redeem Codes",
-    Description = "Redeem all codes",
+    Title = "Активировать все промокоды",
+    Description = "Активирует все существующие промокоды в игре",
     Callback = RedeemCodes,
     Icon = "gift"
 })
